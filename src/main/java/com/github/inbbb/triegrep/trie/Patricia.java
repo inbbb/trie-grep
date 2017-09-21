@@ -45,7 +45,7 @@ public class Patricia implements Serializable {
         return (Patricia)SerdeUtil.deserialize(fileName);
     }
 
-    public void dump(int a) {
-        this.root.dump(a);
+    public void dump() {
+        this.root.dump(0);
     }
 }

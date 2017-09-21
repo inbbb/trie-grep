@@ -20,7 +20,7 @@ public class PatriciaTest {
         assertTrue(!trie.contains("bb"));
         assertTrue(!trie.contains("dd"));
         assertTrue(!trie.contains("e"));
-        trie.dump(0);
+        trie.dump();
     }
 
     @Test
@@ -36,6 +36,6 @@ public class PatriciaTest {
         assertTrue(!trie.in("a"));
         assertTrue(!trie.in("bd"));
         assertTrue(!trie.in("      "));
-        trie.dump(0);
+        trie.dump();
     }
 }
